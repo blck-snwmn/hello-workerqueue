@@ -30,10 +30,6 @@ binding = "MY_QUEUE"
 
 [[queues.consumers]]
 queue = "queuez"
-max_batch_size = 10
-max_batch_timeout = 30
-max_retries = 10
-dead_letter_queue = "my-queue-dlq"
 
 # [env.production]
 # MY_VARIABLE = "production_value"
